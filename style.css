@@ -2,13 +2,30 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #c2bab6
+    width: 100%;
+    background-color: #c2bab6;
+}
+
+nav { 
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 2rem;
+    background-color: #191919;
+    color: white;
+    z-index: 50;
+    
 }
 
 .wrap{
     width: 100vw;
     height: 100vh;
     background-color: #883030;
+    overflow:  hidden;
 }
 
 .inner { 
@@ -31,4 +48,14 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     will-change: transform;
+}
+
+button { 
+    background-color:  #be5329;
+    color: white;
+    padding: 0.5rem 1rem; /* py-2 px-4 */
+    border-radius: 0.25rem; /* rounded */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
 }
