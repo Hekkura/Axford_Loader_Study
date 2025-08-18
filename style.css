@@ -38,8 +38,8 @@ nav {
 }
 
 .inner img { 
-    width: 110%;
-    height: 110%;
+    width: 105%;
+    height: 105%;
     object-fit: cover;
     object-position: center;
     image-rendering: auto;
