@@ -1,5 +1,5 @@
 // Add more of the folder names here.
-const folders = [ 'Raines','Axford', 'Solomon', 'Axford2']
+const folders = [ 'Axford','Raines', 'Solomon', 'Axford2']
 let currentFolderIndex = 0 
 
 // Add folder name as key and images inside as values in an array of strings
